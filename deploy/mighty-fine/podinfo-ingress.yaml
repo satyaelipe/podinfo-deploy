@@ -13,7 +13,7 @@ spec:
       paths:
       - backend:
           serviceName: podinfo1
-          servicePort: 9898
+          servicePort: 3000
         path: /podinfo
 status:
   loadBalancer: {}
