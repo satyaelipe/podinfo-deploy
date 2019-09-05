@@ -1,0 +1,1 @@
+{"jobID":"3fd66190-1071-1777-2f6b-73f2197e3e6a","spec":{"type":"policy","cause":{"Message":"Unlock","User":"Satya vsp \u003cveeravsp@outlook.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":null,"remove":{"locked":"true","locked_msg":"\"Unlock\"","locked_user":"Satya vsp \u003cveeravsp@outlook.com\u003e"}}}},"result":null}
