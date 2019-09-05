@@ -29,14 +29,14 @@ spec:
         - containerPort: 9898
         readinessProbe:
           httpGet:
-            path: /root
+            path: /
             port: 9898
           initialDelaySeconds: 1
           periodSeconds: 5
           failureThreshold: 1
         livenessProbe:
           httpGet:
-            path: /root
+            path: /
             port: 9898
           initialDelaySeconds: 1
           periodSeconds: 10
