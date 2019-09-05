@@ -6,7 +6,7 @@ metadata:
   namespace: dev
   annotations:
     flux.weave.works/tag.podinfod: glob:*
-    flux.weave.works/automated: 'true'
+    flux.weave.works/automated: 'false'
 spec:
   replicas: 4
   selector:
@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: quay.io/brice/metrics-demo:master-a1560c8
+        image: quay.io/brice/metrics-demo:v4-subscription-service
         ports:
         - containerPort: 9898
         readinessProbe:
